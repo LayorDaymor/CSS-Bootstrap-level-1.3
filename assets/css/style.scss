@@ -1,0 +1,24 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    
+}
+section{
+    .col-sm-5:nth-child(n+2){
+        margin-bottom: 1vw;
+    }
+    .col-sm-10{
+        margin-bottom: 1vw;
+    }
+    form{
+        margin-top: 5%;
+    }
+}
+
+input,textarea,select {
+      background-color: #E9E9E9 !important ; 
+}
+select, option{
+        color: #787878 !important;
+        font-size: 10vw;
+    }
