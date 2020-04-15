@@ -11,6 +11,7 @@ section{
         margin-bottom: 1vw;
     }
     form{
+        position: relative !important;
         margin-top: 5%;
     }
 }
@@ -21,4 +22,16 @@ input,textarea,select {
 select, option{
         color: #787878 !important;
         font-size: 10vw;
+    }
+    button{
+        position: absolute;
+        background-color: #892455 !important;
+        border: none !important;
+    }
+    button:hover{
+        background-color: #2E80B0 !important; 
+    }
+    button:focus{
+        outline: none !important;
+        
     }
